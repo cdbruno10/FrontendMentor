@@ -11,12 +11,13 @@
   box-sizing: border-box;
 }
 
-.card__container {
+body {
   background-color: var(--Light-gray);
+}
+.card__container {
   font-family: "Outfit", sans-serif;
   height: 100vh;
   width: 375px;
-  height: 600px;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -24,7 +25,7 @@
 .card {
   background-color: var(--White);
   border-radius: 15px;
-  height: 500px;
+
   padding: 20px 20px;
 }
 
